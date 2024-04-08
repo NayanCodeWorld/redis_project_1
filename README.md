@@ -145,34 +145,3 @@ subsets of tests and many more options:
 ```
 npm testdev
 ```
-
-# Optional (but Recommended): RedisInsight
-
-RedisInsight is a graphical tool for viewing data in Redis and managing Redis server instances.  You don't need to install it to be successful with this course, but we recommend it as a good way of viewing data stored in Redis.
-
-To use RedisInsight, you'll need to [download it](https://redis.io/docs/ui/insight/) then point it at your Redis instance.  Check out the [RedisInsight documentation](https://redis.io/docs/ui/insight/) for help.
-
-If you're using the Docker Compose file provided with this course to run Redis Stack, you can optionally choose to access a web-based version of Redis Stack at `http://localhost:8001` whenever the container is running.
-
-# Linting
-
-This project uses [ESLint](https://eslint.org/) with a slightly modified version of the
-[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
-
-- The file `.eslintrc` contains a short list of rules that have been disabled for this project.
-- The file `.eslintignore` contains details of paths that the linter will not consider when
-  linting the project.
-
-To run the linter:
-
-```
-npm run lint
-```
-
-# Need Help / Join our Community
-
-If you need help with the course or want to chat to your fellow students and the wider Redis community, please [join us on our Discord server](https://discord.gg/V2jj3qW).
-
-# Subscribe to our YouTube Channel / Follow us on Twitch
-
-We'd love for you to [check out our YouTube channel](https://youtube.com/redisinc), and subscribe if you want to see more Redis videos!  We also stream regularly on our [Twitch.tv channel](https://www.twitch.tv/redisinc) - follow us to be notified when we're live or checkout our [streaming schedule](https://developer.redis.com/redis-live/).
